@@ -154,4 +154,19 @@
 	.form-input {
 		width: 75%;
 	}
+	
+	works-list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
+	}
+
+	/* new file */
+	 .menu {
+		border-radius: 0 0 0 25%;
+	} 
+
+	.header {
+		max-width: 576px;
+	}
 }
