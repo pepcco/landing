@@ -59,8 +59,18 @@ body {
 } */
 
 .logo {
-	width: 197px;
-}
+	max-width: 197px;
+	  /* padding-bottom: 5px;
+		border-bottom: 5px solid transparent;
+		transition:  all 0.1s ease-in-out; */
+		/* border-radius: 10%;
+		border:  5px solid transparent; */
+	}
+
+/* .logo:hover {
+	border-bottom-color: rgb(var(--c-photon), 1);
+} */
+
 .menu {
 	display:flex;
 	gap: 45px;
@@ -160,6 +170,10 @@ body {
 	align-items: center;
 	transition: background-color,border-color,outline-color 0.2s ease-out;
 }
+
+ /* .hero-icon {
+	margin-top: 20px;
+} */
 
 .hero-icon:hover,
 .social-link:hover {
@@ -730,8 +744,6 @@ opacity: 0.65;
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
-
-
 
 
 
