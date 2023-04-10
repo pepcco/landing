@@ -152,6 +152,12 @@
 }
 
 @media (max-width: 576px) {
+	
+		.work-link  img {
+		width: 100%;
+	}
+
+	
 	.services-list {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
